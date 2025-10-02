@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архив отделения</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="archive-header">
+        <div class="container">
+            <div class="header-content">
+                <button class="btn btn--back" onclick="window.location.href='index.html'">
+                    Назад к дашборду
+                </button>
+                <h1 class="page-title">
+                    Архив отделения
+                </h1>
+                <div class="header-right">
+                    <span class="header-time" id="current-time">00:00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-card">
+                <h2 class="search-title">Поиск записей мониторинга</h2>
+                <form id="search-form" class="search-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="patient-name-search" class="form-label">ФИО пациентки</label>
+                            <input type="text" id="patient-name-search" class="form-input" placeholder="Например: Иванова">
+                        </div>
+                        <div class="form-group">
+                            <label for="date-from" class="form-label">Дата от</label>
+                            <input type="date" id="date-from" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="date-to" class="form-label">Дата до</label>
+                            <input type="date" id="date-to" class="form-input">
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn--primary">
+                        Найти записи
+                        </button>
+                        <button type="button" class="btn btn--secondary" onclick="archiveApp.clearSearch()">
+                            Очистить
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="container">
+            <div class="results-header">
+                <h2 class="results-title">Результаты поиска</h2>
+                <span class="results-count" id="results-count">Найдено: 0 записей</span>
+            </div>
+            
+            <div id="archive-results" class="archive-results">
+                <!-- Initial state -->
+                <div class="empty-state">
+                    <div class="empty-state-icon">🔍</div>
+                    <p class="empty-state-text">Используйте форму поиска выше для поиска архивных записей</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="assets/js/archive.js"></script>
+
+<!-- PDF Generation Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<!-- Scripts -->
+<script src="assets/js/archive.js"></script>
+</body>
+</html>

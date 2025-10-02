@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детальный просмотр пациентки | Виртуальный раунд</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="details-header">
+        <div class="container">
+            <div class="header-content">
+                <button class="btn btn--back" onclick="window.location.href='index.html'">
+                    ← Назад к дашборду
+                </button>
+                <div class="patient-info-header">
+                    <h1 class="patient-name-large" id="patient-name">Загрузка...</h1>
+                    <div class="patient-meta">
+                        <span class="patient-meta-item">ID: <span id="patient-id">-</span></span>
+                        <span class="patient-meta-item">Палата: <span id="patient-room">-</span></span>
+                        <span class="patient-meta-item">Возраст: <span id="patient-age">-</span></span>
+                        <span class="patient-meta-item">Срок: <span id="patient-term">-</span> недель</span>
+                    </div>
+                </div>
+                <div class="connection-status connection-status--connected" id="connection-status">
+                    <span class="connection-status__indicator"></span>
+                    <span class="connection-status__text">Live</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="details-main">
+        <div class="container">
+            <div class="details-layout">
+                <!-- Left Sidebar -->
+                <aside class="details-sidebar">
+                    <!-- Wellness Index -->
+                    <div class="wellness-card">
+                        <h3 class="card-title">Индекс благополучия</h3>
+                        <div class="wellness-score">
+                            <div class="wellness-score-value" id="wellness-score">-</div>
+                            <div class="wellness-score-label">FWBS Score</div>
+                        </div>
+                        <div class="wellness-trend" id="wellness-trend">
+                            <canvas id="wellness-mini-chart"></canvas>
+                        </div>
+                        <div class="wellness-status" id="wellness-status">
+                            Статус: <span class="status-badge">Норма</span>
+                        </div>
+                    </div>
+
+                    <!-- Diseases/Conditions -->
+                    <div class="conditions-card">
+                        <h3 class="card-title">Болезни</h3>
+                        <div id="conditions-list" class="conditions-list">
+                            <div class="condition-item condition-item--loading">
+                                Загрузка данных...
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Main Content Area -->
+                <div class="details-content">
+                    <!-- CTG Chart with dual graphs -->
+                    <div class="ctg-card">
+                        <div class="ctg-header">
+                            <h3 class="card-title">Мониторинг КТГ в реальном времени</h3>
+                        </div>
+                        
+                        <!-- Dual Chart Container -->
+                        <div class="ktg-dual-chart">
+                            <!-- FHR Chart (Top) -->
+                            <div class="ktg__chart-group">
+                                <div class="ktg__chart-label">
+                                    <span class="ktg__chart-title">ЧСС</span>
+                                    <span class="ktg__chart-units">уд/мин</span>
+                                </div>
+                                <div class="ktg__chart-container ktg__chart-container--fhr">
+                                    <canvas id="fhr-chart"></canvas>
+                                </div>
+                            </div>
+                            
+                            <!-- UA Chart (Bottom) -->
+                            <div class="ktg__chart-group">
+                                <div class="ktg__chart-label">
+                                    <span class="ktg__chart-title">СДМ</span>
+                                    <span class="ktg__chart-units">отн.ед</span>
+                                </div>
+                                <div class="ktg__chart-container ktg__chart-container--ua">
+                                    <canvas id="ua-chart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chart Stats -->
+                        <div class="chart-stats">
+                            <div class="stat-box">
+                                <div class="stat-label">ЧСС плода</div>
+                                <div class="stat-value" id="fhr-value">-</div>
+                                <div class="stat-unit">уд/мин</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-label">Вариабельность</div>
+                                <div class="stat-value" id="variability-value">-</div>
+                                <div class="stat-unit">уд/мин</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-label">Акцелерации</div>
+                                <div class="stat-value" id="accel-value">-</div>
+                                <div class="stat-unit">за 20 мин</div>
+                            </div>
+                            <div class="stat-box">
+                                <div class="stat-label">Децелерации</div>
+                                <div class="stat-value" id="decel-value">-</div>
+                                <div class="stat-unit">за 20 мин</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/details.js"></script>
+</body>
+</html>

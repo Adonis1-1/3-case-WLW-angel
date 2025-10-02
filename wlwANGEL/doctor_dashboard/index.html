@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статус отделения</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <h1 class="header-title">
+                        <span class="header-title__icon"></span>
+                        Статус отделения
+                    </h1>
+                    <div class="header-stats">
+                        <div class="stat-item">
+                            <span class="stat-value" id="total-patients">12</span>
+                            <span class="stat-label">Пациенток</span>
+                        </div>
+                        <div class="stat-item stat-item--critical">
+                            <span class="stat-value" id="critical-patients">2</span>
+                            <span class="stat-label">Критических</span>
+                        </div>
+                        <div class="stat-item stat-item--warning">
+                            <span class="stat-value" id="warning-patients">5</span>
+                            <span class="stat-label">Требуют внимания</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <button class="btn btn--secondary" onclick="window.location.href='archive.html'">
+                        Архив
+                    </button>
+                    <div class="connection-status connection-status--connected" id="connection-status">
+                        <span class="connection-status__indicator"></span>
+                        <span class="connection-status__text">Подключено</span>
+                    </div>
+                    <span class="header-time" id="current-time">00:00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Control Panel -->
+    <section class="control-panel">
+        <div class="container">
+            <div class="control-panel__content">
+                <div class="control-group">
+                    <label class="control-label">Сортировка:</label>
+                    <div class="btn-group">
+                        <button class="btn btn--small btn--active" data-sort="priority" onclick="app.handleSort('priority')">
+                            По приоритету
+                        </button>
+                        <button class="btn btn--small" data-sort="room" onclick="app.handleSort('room')">
+                            По палате
+                        </button>
+                        <button class="btn btn--small" data-sort="name" onclick="app.handleSort('name')">
+                            По имени
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label">Фильтр:</label>
+                    <div class="btn-group">
+                        <button class="btn btn--small btn--active" data-filter="all" onclick="app.handleFilter('all')">
+                            Все
+                        </button>
+                        <button class="btn btn--small" data-filter="critical" onclick="app.handleFilter('critical')">
+                            <span class="filter-dot filter-dot--critical"></span>
+                            Критические
+                        </button>
+                        <button class="btn btn--small" data-filter="warning" onclick="app.handleFilter('warning')">
+                            <span class="filter-dot filter-dot--warning"></span>
+                            Внимание
+                        </button>
+                        <button class="btn btn--small" data-filter="normal" onclick="app.handleFilter('normal')">
+                            <span class="filter-dot filter-dot--normal"></span>
+                            Норма
+                        </button>
+                    </div>
+                </div>
+
+                <div class="control-group control-group--right">
+                    <button class="btn btn--primary" onclick="app.refreshData()">
+                        Обновить данные
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Dashboard Grid -->
+    <main class="dashboard-main">
+        <div class="container">
+            <div id="dashboard-grid" class="dashboard-grid">
+                <!-- Заглушка на время загрузки -->
+                <div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #9A9AAB;">
+                    <div style="font-size: 48px; margin-bottom: 16px;">⏳</div>
+                    <p>Загрузка данных пациенток...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

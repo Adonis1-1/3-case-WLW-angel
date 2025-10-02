@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медицинский мониторинг КТГ - Дашборд</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="dashboard">
+        <!-- Header Section -->
+        <header class="dashboard__header card">
+            <div class="patient-info">
+                <div class="patient-info__label">ПАЦИЕНТ</div>
+                <div class="patient-info__data">
+                    <div class="patient-info__field">
+                        <span class="patient-info__value">Милюкова Мария Ивановна</span>
+                        <span class="patient-info__caption">ФИО</span>
+                    </div>
+                    <div class="patient-info__field">
+                        <span class="patient-info__value">28 Недель</span>
+                        <span class="patient-info__caption">СРОК</span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn--outline" aria-label="История пациента" onclick="location.href='history.html'">
+                ИСТОРИЯ
+            </button>
+        </header>
+
+        <!-- Wellbeing Index Card -->
+        <section class="dashboard__wellbeing card card--no-padding">
+            <div class="card__header card__header--blue">
+                <h3 class="card__title">Индекс благополучия</h3>
+            </div>
+            <div class="card__content">
+                <div class="wellbeing">
+                    <div class="wellbeing__chart">
+                        <canvas id="wellbeingChart" width="160" height="160"></canvas>
+                    </div>
+                    <div class="wellbeing__diseases">
+                        <ul class="diseases-list">
+                            <li class="diseases-list__item">
+                                <span class="diseases-list__name">ДИАБЕТ</span>
+                                <span class="diseases-list__status">I СТЕПЕНИ</span>
+                            </li>
+                            <li class="diseases-list__item">
+                                <span class="diseases-list__name">ОЖИРЕНИЕ</span>
+                                <span class="diseases-list__status diseases-list__status--none">Нет</span>
+                            </li>
+                            <li class="diseases-list__item">
+                                <span class="diseases-list__name">ГИПЕРТОНИЯ</span>
+                                <span class="diseases-list__status">II СТЕПЕНИ</span>
+                            </li>
+                            <li class="diseases-list__item">
+                                <span class="diseases-list__name">АНЕМИЯ</span>
+                                <span class="diseases-list__status diseases-list__status--none">Нет</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Card - Updated with blue header -->
+        <section class="dashboard__events card card--no-padding">
+            <div class="card__header card__header--blue">
+                <h3 class="card__title">События</h3>
+                <span class="card__subtitle">Время (мин)</span>
+            </div>
+            <div class="card__content">
+                <div class="events">
+                    <div class="events__list" id="eventsList">
+                        <!-- Events will be populated from JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KTG Chart Card with Separate Charts -->
+        <section class="dashboard__ktg card">
+            <div class="ktg">
+                <div class="ktg__header">
+                    <h2 class="ktg__title">Кардиотокография (КТГ)</h2>
+                    <div class="ktg__controls">
+                        <button class="ktg__print-btn" title="Печать">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- FHR Chart (Top) -->
+                <div class="ktg__chart-group">
+                    <div class="ktg__chart-label">
+                        <span class="ktg__chart-title">ЧСС</span>
+                        <span class="ktg__chart-units">уд/мин</span>
+                    </div>
+                    <div class="ktg__chart-container ktg__chart-container--fhr">
+                        <canvas id="fhrChart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- UA Chart (Bottom) -->
+                <div class="ktg__chart-group">
+                    <div class="ktg__chart-label">
+                        <span class="ktg__chart-title">СДМ</span>
+                        <span class="ktg__chart-units">отн.ед</span>
+                    </div>
+                    <div class="ktg__chart-container ktg__chart-container--ua">
+                        <canvas id="uaChart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- Timeline Controls -->
+                <div class="ktg__timeline">
+                    <div class="ktg__time-start">
+                        <span>НАЧАЛО</span>
+                        <span id="startTime">14:00:00</span>
+                    </div>
+                    <div class="ktg__scrubber" id="scrubber">
+                        <div class="ktg__scrubber-track"></div>
+                        <div class="ktg__scrubber-handle" id="scrubberHandle">
+                            <div class="ktg__scrubber-time" id="currentTime">14:00</div>
+                        </div>
+                    </div>
+                    <div class="ktg__time-end">
+                        <span>КОНЕЦ</span>
+                        <span id="endTime">17:00:00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+
+    <script src="js/data.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/app.js"></script>
+  
+
+</body>
+</html>

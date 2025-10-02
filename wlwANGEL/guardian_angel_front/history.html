@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История записей - Медицинский мониторинг КТГ</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="history-page">
+        <!-- Header with navigation -->
+        <header class="history-page__header">
+            <div class="history-page__nav">
+                <a href="index.html" class="btn-back">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <path d="M19 12H5M5 12L12 19M5 12L12 5"/>
+                    </svg>
+                    <span>Назад к мониторингу</span>
+                </a>
+            </div>
+            <h1 class="history-page__title">История записей КТГ</h1>
+            <div class="history-page__filters">
+                <input type="date" id="dateFilter" class="date-filter" />
+                <button class="btn btn--secondary" id="clearFilter">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                    <span>Сбросить</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Sessions list -->
+        <div class="history-sessions" id="historySessions">
+            <!-- Sessions will be dynamically inserted here -->
+        </div>
+
+        <!-- Empty state placeholder -->
+        <div class="history-placeholder" id="placeholderState">
+            <div class="history-placeholder__icon">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M9 11l3 3L22 4"/>
+                    <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+                </svg>
+            </div>
+            <h3 class="history-placeholder__title">Загрузка данных...</h3>
+            <p class="history-placeholder__text">Данные временно недоступны. Отображаются демонстрационные записи</p>
+        </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="js/data.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/history.js"></script>
+</body>
+</html>
