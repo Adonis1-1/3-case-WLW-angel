@@ -6831,3 +6831,602 @@ ValueError: list.remove(x): x not in list
 2025-10-03 03:24:20,060 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
 2025-10-03 03:24:20,117 - api - INFO - [DISCONNECTED] Отключено от эмулятора
 2025-10-03 03:24:20,122 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:33:08,359 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:33:08,371 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:33:08,456 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:33:08,873 - api - INFO - ==================================================
+2025-10-03 03:33:08,900 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:33:08,902 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:33:08,904 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:33:08,909 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:33:08,911 - api - INFO - ==================================================
+2025-10-03 03:33:08,911 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:33:08,916 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:33:09,024 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:33:13,348 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:33:38,272 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 0
+2025-10-03 03:33:38,634 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:33:39,219 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 0
+2025-10-03 03:33:39,578 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:33:40,069 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 0
+2025-10-03 03:33:40,436 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:33:40,965 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 0
+2025-10-03 03:33:41,335 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:34:02,488 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:34:02,488 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:34:02,491 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:34:02,492 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:37:03,976 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:37:03,976 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:37:03,977 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:37:04,006 - api - INFO - ==================================================
+2025-10-03 03:37:04,007 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:37:04,007 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:37:04,008 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:37:04,008 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:37:04,009 - api - INFO - ==================================================
+2025-10-03 03:37:04,010 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:37:04,012 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:37:06,046 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:37:07,168 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:37:11,432 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:37:45,031 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:37:45,033 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:37:45,036 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:37:45,049 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:40:51,076 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:40:51,077 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:40:51,078 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:40:51,106 - api - INFO - ==================================================
+2025-10-03 03:40:51,106 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:40:51,107 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:40:51,107 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:40:51,108 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:40:51,108 - api - INFO - ==================================================
+2025-10-03 03:40:51,108 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:40:51,113 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:40:51,916 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:40:53,167 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:40:54,255 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:40:57,010 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 03:40:58,432 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:40:58,433 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:40:58,445 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:40:58,461 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:45:26,334 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:45:26,336 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:45:26,337 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:45:26,424 - api - INFO - ==================================================
+2025-10-03 03:45:26,424 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:45:26,424 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:45:26,425 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:45:26,425 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:45:26,426 - api - INFO - ==================================================
+2025-10-03 03:45:26,426 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:45:26,429 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:45:28,501 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:45:28,502 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:45:29,503 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:45:30,503 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:45:31,505 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:45:32,552 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:45:33,569 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:45:34,189 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:45:34,570 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:45:35,570 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:45:36,462 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 0
+2025-10-03 03:45:36,571 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:45:36,590 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:45:36,642 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:45:37,574 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:45:38,575 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:45:39,576 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:45:40,577 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.7
+2025-10-03 03:45:40,695 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:45:40,698 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:45:40,702 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:45:40,704 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:47:55,094 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:47:55,094 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:47:55,095 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:47:55,115 - api - INFO - ==================================================
+2025-10-03 03:47:55,117 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:47:55,118 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:47:55,118 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:47:55,118 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:47:55,119 - api - INFO - ==================================================
+2025-10-03 03:47:55,119 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:47:55,121 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:47:57,161 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:47:57,162 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:47:58,165 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:47:59,165 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:48:00,166 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:48:01,167 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:48:02,182 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:48:03,238 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:48:04,288 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:48:04,759 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:48:05,288 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:48:05,304 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:48:05,320 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:48:06,289 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:48:07,290 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:48:08,291 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:48:09,293 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.7
+2025-10-03 03:48:10,295 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.7
+2025-10-03 03:48:11,297 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.8
+2025-10-03 03:48:12,301 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.8
+2025-10-03 03:48:13,302 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.9
+2025-10-03 03:48:14,304 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:48:15,304 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:48:15,318 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:48:15,328 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:48:16,305 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:48:17,306 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:48:18,307 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:48:19,308 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:48:20,308 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:48:21,312 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:48:22,314 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:48:23,315 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:48:24,315 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:48:25,316 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:48:25,330 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:48:25,339 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:48:26,317 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 03:48:27,318 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 03:48:28,288 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:48:28,289 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:48:28,294 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:48:28,322 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:48:58,157 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:48:58,158 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:48:58,158 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:48:58,182 - api - INFO - ==================================================
+2025-10-03 03:48:58,182 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:48:58,182 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:48:58,183 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:48:58,183 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:48:58,183 - api - INFO - ==================================================
+2025-10-03 03:48:58,184 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:48:58,185 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:48:58,575 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:49:00,237 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:49:00,238 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:49:01,239 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:49:02,241 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:49:03,241 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:49:04,243 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:49:05,482 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:49:06,562 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:49:07,570 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:49:08,575 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:49:08,592 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:49:08,636 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:49:09,187 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:49:09,598 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:49:10,599 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:49:11,600 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:49:12,603 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.7
+2025-10-03 03:49:13,603 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.7
+2025-10-03 03:49:14,604 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.8
+2025-10-03 03:49:15,605 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.8
+2025-10-03 03:49:16,607 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.9
+2025-10-03 03:49:17,608 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:49:18,608 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:49:18,625 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:49:18,635 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:49:19,609 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:49:20,610 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 03:49:21,611 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:49:22,612 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:49:23,613 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:49:24,615 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 03:49:25,615 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:49:26,616 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:49:27,620 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:49:28,620 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 03:49:28,644 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:49:28,659 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:49:28,793 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 03:49:29,622 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 03:49:30,624 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 03:49:31,624 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 03:49:32,625 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 03:49:33,625 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 03:49:34,631 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 03:49:35,636 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 03:49:36,638 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 03:49:37,639 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 03:49:38,248 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 2
+2025-10-03 03:49:38,639 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 03:49:38,661 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:49:38,680 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:49:39,641 - api - INFO - [SAVED] Данные сохранены: BPM=122.1, Uterus=11.9
+2025-10-03 03:49:39,974 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 1
+2025-10-03 03:49:40,645 - api - INFO - [SAVED] Данные сохранены: BPM=122.1, Uterus=11.9
+2025-10-03 03:49:41,653 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:42,653 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:43,739 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:44,745 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:45,745 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:46,747 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:47,748 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:48,748 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 03:49:48,763 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 03:49:48,772 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 03:49:49,749 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.7
+2025-10-03 03:49:50,751 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.7
+2025-10-03 03:49:51,752 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.5
+2025-10-03 03:49:52,753 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.5
+2025-10-03 03:49:53,754 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.1
+2025-10-03 03:49:54,755 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.1
+2025-10-03 03:49:55,756 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.1
+2025-10-03 03:51:56,482 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:51:56,482 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:51:56,482 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:51:56,501 - api - INFO - ==================================================
+2025-10-03 03:51:56,501 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:51:56,501 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:51:56,501 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:51:56,501 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:51:56,501 - api - INFO - ==================================================
+2025-10-03 03:51:56,501 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:51:56,501 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:51:56,517 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:52:02,077 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:52:56,508 - api - WARNING - [TIMEOUT] Таймаут чтения данных от эмулятора
+2025-10-03 03:52:56,520 - api - WARNING - [EMPTY] Получен пустой chunk - соединение закрыто
+2025-10-03 03:52:56,521 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:52:56,522 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:53:01,544 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:54:01,557 - api - WARNING - [TIMEOUT] Таймаут чтения данных от эмулятора
+2025-10-03 03:54:01,557 - api - WARNING - [EMPTY] Получен пустой chunk - соединение закрыто
+2025-10-03 03:54:01,557 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:54:01,557 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:54:06,596 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:54:53,137 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:55:06,633 - api - WARNING - [TIMEOUT] Таймаут чтения данных от эмулятора
+2025-10-03 03:55:06,635 - api - WARNING - [EMPTY] Получен пустой chunk - соединение закрыто
+2025-10-03 03:55:06,636 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:55:06,637 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:55:11,639 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:56:16,259 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:56:16,259 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:56:16,259 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:56:16,278 - api - INFO - ==================================================
+2025-10-03 03:56:16,278 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:56:16,278 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:56:16,294 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:56:16,294 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:56:16,294 - api - INFO - ==================================================
+2025-10-03 03:56:16,294 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:56:16,309 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:56:16,329 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:56:16,546 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:56:18,958 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:56:20,046 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 03:56:25,248 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:56:25,248 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:56:25,260 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:56:25,284 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:57:02,235 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:57:02,235 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:57:02,235 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:57:02,285 - api - INFO - ==================================================
+2025-10-03 03:57:02,285 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:57:02,285 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:57:02,285 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:57:02,285 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:57:02,285 - api - INFO - ==================================================
+2025-10-03 03:57:02,285 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:57:02,285 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:57:02,316 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:57:07,328 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:57:56,603 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:57:56,603 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:57:56,603 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:57:56,638 - api - INFO - ==================================================
+2025-10-03 03:57:56,638 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:57:56,638 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:57:56,638 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:57:56,638 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:57:56,638 - api - INFO - ==================================================
+2025-10-03 03:57:56,638 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:57:56,638 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:57:58,680 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:57:58,680 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:57:59,019 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:57:59,682 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:58:00,683 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:58:01,684 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:58:02,685 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 03:58:03,735 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:58:04,485 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:58:04,732 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 03:58:05,738 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 03:58:06,368 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:58:06,368 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 03:58:06,371 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:58:06,372 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:58:40,674 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 03:58:40,674 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 03:58:40,674 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 03:58:40,706 - api - INFO - ==================================================
+2025-10-03 03:58:40,706 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 03:58:40,706 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 03:58:40,706 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 03:58:40,706 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 03:58:40,706 - api - INFO - ==================================================
+2025-10-03 03:58:40,706 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 03:58:40,706 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 03:58:40,725 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:58:47,788 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 03:59:17,120 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:59:40,738 - api - WARNING - [TIMEOUT] Таймаут чтения данных от эмулятора
+2025-10-03 03:59:40,739 - api - WARNING - [EMPTY] Получен пустой chunk - соединение закрыто
+2025-10-03 03:59:40,741 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 03:59:40,742 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 03:59:45,763 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 03:59:50,658 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 1
+2025-10-03 03:59:53,397 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 03:59:54,802 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 1
+2025-10-03 04:00:04,958 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 04:00:22,765 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:00:30,165 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 2
+2025-10-03 04:00:34,748 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:00:39,631 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 2
+2025-10-03 04:00:42,532 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:00:45,758 - api - WARNING - [TIMEOUT] Таймаут чтения данных от эмулятора
+2025-10-03 04:00:45,758 - api - WARNING - [EMPTY] Получен пустой chunk - соединение закрыто
+2025-10-03 04:00:45,758 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 04:00:45,758 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 04:00:48,666 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 2
+2025-10-03 04:00:50,108 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:00:50,757 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:00:52,845 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 2
+2025-10-03 04:01:16,327 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:01:17,357 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 2
+2025-10-03 04:01:19,516 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:01:22,461 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 2
+2025-10-03 04:01:27,129 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:01:47,490 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 04:01:47,490 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 04:01:47,493 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 04:01:47,509 - api - INFO - ==================================================
+2025-10-03 04:01:47,509 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 04:01:47,509 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 04:01:47,509 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 04:01:47,509 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 04:01:47,509 - api - INFO - ==================================================
+2025-10-03 04:01:47,509 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 04:01:47,509 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 04:01:48,051 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 04:01:49,025 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 04:01:49,025 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:01:49,559 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:01:49,563 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:01:50,563 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:01:51,566 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:01:52,567 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:01:53,568 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:01:54,712 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 04:01:55,744 - api - INFO - [SAVED] Данные сохранены: BPM=118.2, Uterus=11.9
+2025-10-03 04:01:55,776 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 4
+2025-10-03 04:01:56,745 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 04:01:57,745 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 04:01:57,745 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:01:57,792 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:01:58,745 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 04:01:59,746 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 04:02:00,747 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.9
+2025-10-03 04:02:01,748 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.7
+2025-10-03 04:02:02,749 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=11.7
+2025-10-03 04:02:03,749 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.8
+2025-10-03 04:02:04,750 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.8
+2025-10-03 04:02:05,751 - api - INFO - [SAVED] Данные сохранены: BPM=118.3, Uterus=10.9
+2025-10-03 04:02:06,752 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 04:02:07,755 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 04:02:07,772 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:02:07,789 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:02:08,755 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 04:02:09,759 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=10.9
+2025-10-03 04:02:10,760 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 04:02:11,593 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 3
+2025-10-03 04:02:11,761 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 04:02:12,761 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 04:02:13,762 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=11.7
+2025-10-03 04:02:14,763 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 04:02:15,764 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 04:02:16,766 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 04:02:17,767 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.7
+2025-10-03 04:02:17,778 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:02:17,794 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:02:18,768 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 04:02:19,769 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 04:02:20,771 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 04:02:21,771 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.9
+2025-10-03 04:02:22,773 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 04:02:23,775 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 04:02:24,080 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 4
+2025-10-03 04:02:24,776 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 04:02:25,776 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 04:02:26,777 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 04:02:27,779 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.9
+2025-10-03 04:02:27,810 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:02:27,820 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:02:28,779 - api - INFO - [SAVED] Данные сохранены: BPM=122.1, Uterus=11.9
+2025-10-03 04:02:29,780 - api - INFO - [SAVED] Данные сохранены: BPM=122.1, Uterus=11.9
+2025-10-03 04:02:30,781 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:31,782 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:32,784 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:33,784 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:34,785 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:35,788 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:36,788 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:37,791 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=11.9
+2025-10-03 04:02:37,809 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:02:37,822 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:02:38,792 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.7
+2025-10-03 04:02:39,793 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.7
+2025-10-03 04:02:40,795 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.5
+2025-10-03 04:02:41,795 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.5
+2025-10-03 04:02:42,796 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.1
+2025-10-03 04:02:43,797 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.1
+2025-10-03 04:02:44,798 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.1
+2025-10-03 04:02:45,800 - api - INFO - [SAVED] Данные сохранены: BPM=124.2, Uterus=11.1
+2025-10-03 04:02:46,801 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:47,802 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:47,830 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:02:47,851 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:02:48,806 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:49,807 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:50,808 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:51,809 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:52,812 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:53,813 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:54,815 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:55,816 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:56,817 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:56,933 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 3
+2025-10-03 04:02:57,818 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=10.7
+2025-10-03 04:02:57,830 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:02:57,840 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:02:58,575 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 4
+2025-10-03 04:02:58,819 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.1
+2025-10-03 04:02:59,821 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.1
+2025-10-03 04:03:00,825 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.1
+2025-10-03 04:03:01,826 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=11.1
+2025-10-03 04:03:02,829 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.1
+2025-10-03 04:03:03,829 - api - INFO - [SAVED] Данные сохранены: BPM=119.1, Uterus=11.1
+2025-10-03 04:03:04,830 - api - INFO - [SAVED] Данные сохранены: BPM=117.3, Uterus=12.4
+2025-10-03 04:03:05,831 - api - INFO - [SAVED] Данные сохранены: BPM=117.3, Uterus=12.4
+2025-10-03 04:03:06,832 - api - INFO - [SAVED] Данные сохранены: BPM=117.3, Uterus=12.7
+2025-10-03 04:03:07,833 - api - INFO - [SAVED] Данные сохранены: BPM=117.3, Uterus=12.7
+2025-10-03 04:03:07,833 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:03:07,849 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:03:08,834 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=12.7
+2025-10-03 04:03:09,836 - api - INFO - [SAVED] Данные сохранены: BPM=117.8, Uterus=12.7
+2025-10-03 04:03:10,837 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:11,499 - api - INFO - [DISCONNECTED] WebSocket клиент отключен. Активных подключений: 3
+2025-10-03 04:03:11,842 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:12,843 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:13,844 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:14,846 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:15,849 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:16,192 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 4
+2025-10-03 04:03:16,848 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:17,850 - api - INFO - [SAVED] Данные сохранены: BPM=119.2, Uterus=12.7
+2025-10-03 04:03:17,870 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:03:17,904 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:03:18,851 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=12.7
+2025-10-03 04:03:19,854 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=12.7
+2025-10-03 04:03:20,854 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=12.7
+2025-10-03 04:03:21,857 - api - INFO - [SAVED] Данные сохранены: BPM=124.1, Uterus=12.7
+2025-10-03 04:03:22,860 - api - INFO - [SAVED] Данные сохранены: BPM=124.4, Uterus=13.3
+2025-10-03 04:03:23,861 - api - INFO - [SAVED] Данные сохранены: BPM=124.4, Uterus=13.3
+2025-10-03 04:03:24,862 - api - INFO - [SAVED] Данные сохранены: BPM=124.4, Uterus=13.3
+2025-10-03 04:03:25,864 - api - INFO - [SAVED] Данные сохранены: BPM=124.4, Uterus=13.3
+2025-10-03 04:03:26,867 - api - INFO - [SAVED] Данные сохранены: BPM=124.4, Uterus=14.1
+2025-10-03 04:03:27,868 - api - INFO - [SAVED] Данные сохранены: BPM=124.4, Uterus=14.1
+2025-10-03 04:03:27,911 - api - INFO - [SHORT ANALYSIS] Запуск краткосрочного анализа с 120 записями
+2025-10-03 04:03:27,942 - final_prediction_service.PredictionService - INFO - Data interpolated: 600 samples @ 1Hz -> 2400 samples @ 4Hz
+2025-10-03 04:03:28,449 - api - ERROR - [READ ERROR] Ошибка при чтении данных: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 04:03:28,449 - api - ERROR - Ошибка при закрытии соединения: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-10-03 04:03:28,458 - api - INFO - [DISCONNECTED] Отключено от эмулятора
+2025-10-03 04:03:28,477 - api - INFO - [RECONNECT] Переподключение через 5 секунд...
+2025-10-03 04:04:19,658 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 04:04:19,658 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 04:04:19,658 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 04:04:19,689 - api - INFO - ==================================================
+2025-10-03 04:04:19,689 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 04:04:19,689 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 04:04:19,689 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 04:04:19,689 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 04:04:19,689 - api - INFO - ==================================================
+2025-10-03 04:04:19,689 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 04:04:19,689 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 04:04:19,708 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:04:28,072 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 04:05:33,715 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 04:05:33,718 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 04:05:33,718 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 04:05:33,749 - api - INFO - ==================================================
+2025-10-03 04:05:33,769 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 04:05:33,769 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 04:05:33,769 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 04:05:33,769 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 04:05:33,769 - api - INFO - ==================================================
+2025-10-03 04:05:33,769 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 04:05:33,784 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 04:05:33,800 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:05:38,631 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 04:05:59,329 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 04:05:59,329 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 04:05:59,329 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 04:05:59,344 - api - INFO - ==================================================
+2025-10-03 04:05:59,344 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 04:05:59,344 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 04:05:59,344 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 04:05:59,344 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 04:05:59,344 - api - INFO - ==================================================
+2025-10-03 04:05:59,344 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 04:05:59,344 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 04:05:59,370 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:05:59,552 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 04:06:01,752 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 04:06:06,488 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:06:55,012 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 04:06:55,012 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 04:06:55,012 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 04:06:55,063 - api - INFO - ==================================================
+2025-10-03 04:06:55,063 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 04:06:55,063 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 04:06:55,063 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 04:06:55,063 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 04:06:55,063 - api - INFO - ==================================================
+2025-10-03 04:06:55,063 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 04:06:55,063 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 04:06:55,078 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:06:55,113 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 04:06:56,941 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 04:06:57,202 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:06:58,089 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 4
+2025-10-03 04:07:31,574 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 04:07:31,574 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 04:07:31,574 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 04:07:31,584 - api - INFO - ==================================================
+2025-10-03 04:07:31,584 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 04:07:31,584 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 04:07:31,584 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 04:07:31,584 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 04:07:31,584 - api - INFO - ==================================================
+2025-10-03 04:07:31,584 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 04:07:31,584 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 04:07:31,599 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 04:07:32,042 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 04:07:33,153 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:07:33,635 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:07:33,635 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:07:34,024 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 4
+2025-10-03 04:07:34,638 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:07:35,640 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:07:36,640 - api - WARNING - Отфильтровано аномальное значение ЧСС: 208.246927
+2025-10-03 04:08:11,887 - final_prediction_service.PredictionService - ERROR - Error loading ML model: No module named 'xgboost'
+2025-10-03 04:08:11,887 - final_prediction_service.PredictionService - INFO - PredictionService v2.2.0 initialized
+2025-10-03 04:08:11,887 - final_prediction_service.PredictionService - INFO - ML Model: Not Available
+2025-10-03 04:08:11,953 - api - INFO - ==================================================
+2025-10-03 04:08:11,953 - api - INFO - [STARTUP] ЗАПУСК Guardian Angel API v4.2
+2025-10-03 04:08:11,953 - api - INFO - [DATABASE] База данных: C:\Users\New\..NEW1\Desktop\wlwANGEL\guardian_angel\guardian_angel_data.db
+2025-10-03 04:08:11,953 - api - INFO - [EMULATOR] Эмулятор: localhost:8081
+2025-10-03 04:08:11,953 - api - INFO - [ARCHIVES] Папка очереди: archives_to_send
+2025-10-03 04:08:11,953 - api - INFO - ==================================================
+2025-10-03 04:08:11,953 - api - INFO - [START] Запуск EmulatorClient...
+2025-10-03 04:08:11,953 - api - INFO - [ARCHIVE SENDER] Запуск фонового процесса отправки архивов
+2025-10-03 04:08:11,969 - api - INFO - [SUCCESS] Успешно подключено к эмулятору localhost:8081
+2025-10-03 04:08:12,061 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 1
+2025-10-03 04:08:12,111 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 2
+2025-10-03 04:08:13,023 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 3
+2025-10-03 04:08:15,720 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 4
+2025-10-03 04:08:15,855 - api - INFO - [CONNECTED] WebSocket клиент подключен. Активных подключений: 5

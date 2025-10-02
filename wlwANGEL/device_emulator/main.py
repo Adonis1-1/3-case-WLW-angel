@@ -8,7 +8,8 @@ HOST = '127.0.0.1'
 PORT = 8081  # Изменен порт, чтобы избежать конфликта с системными ограничениями
 SENDING_INTERVAL_SECONDS = 1
 
-DATA_PATH = 'C:/Users/New/..NEW1/Desktop/emulator/ЛЦТ _НПП _ИТЭЛМА_'
+current_dir = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(current_dir, '..', 'dataset', 'ЛЦТ _НПП _ИТЭЛМА_')
 DATA_MAX_FILES_TO_LOAD = 100
 CSV_FIELDS_SEPARATOR = ','
 
